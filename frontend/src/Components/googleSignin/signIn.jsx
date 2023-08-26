@@ -14,7 +14,7 @@ const SignIn = () => {
 
   useEffect(() => {
     setValue(localStorage.getItem("email"));
-  });
+  }, [setValue]);
 
   return (
     <div>
